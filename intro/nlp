@@ -1,0 +1,7 @@
+!pip install langdetect
+!pip install googletrans
+import pandas as pd
+df=pd.read_csv("/content/English.csv")
+d=df['English words/sentences'].unique()
+c=d.tolist()
+c
